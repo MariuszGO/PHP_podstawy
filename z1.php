@@ -44,7 +44,41 @@ echo "$i ";
 $i++;
 }
 
+//switch case
+$d = 2;
+echo "<br><br>";
 
+switch($d){
+    case 1: {
+        echo "poniedziałek";
+        break;
+    }
+    case 2: {
+        echo "wtorek";
+        break;
+    }
+    case 5: {
+        echo "piatek";
+        break;
+    }
+    default:
+    echo "wybrałeś inną wartość";
+}
+
+echo "<br><br>Switch zamieniony na if: <br>";
+
+if($d==1){
+    echo "poniedzialek";
+}
+elseif($d==2){
+    echo "wtorek";
+}
+elseif($d==5){
+    echo "piątek";
+}
+else{
+    echo "wybrałeś inną wartość";
+}
 
 
 

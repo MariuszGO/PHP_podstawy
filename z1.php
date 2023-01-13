@@ -98,10 +98,11 @@ for ($i=0;$i<10;$i++){
 
 echo "<br>rsort <br>";
 rsort($tab);
-for ($i=0;$i<10;$i++){
+foreach ($tab as $n){
     
-    echo $tab[$i] . " ";
+    echo $n . " ";
 }
+
 
 
 ?>

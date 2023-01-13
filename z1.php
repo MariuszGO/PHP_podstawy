@@ -79,9 +79,14 @@ elseif($d==5){
 else{
     echo "wybrałeś inną wartość";
 }
-
-
-
+//czy parzysta
+$e = 2341;
+if ($e % 2 == 0) echo ("$e liczba parzysta"); else echo ("$e liczba nieparzysta");
+//losowanie 10 liczb z przedziału od 10 do 210;
+echo "<BR>";
+for ($i=0;$i<10;$i++){
+    echo  rand(10,210) . " ";
+}
 
 
 ?>

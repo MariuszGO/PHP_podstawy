@@ -85,7 +85,22 @@ if ($e % 2 == 0) echo ("$e liczba parzysta"); else echo ("$e liczba nieparzysta"
 //losowanie 10 liczb z przedziału od 10 do 210;
 echo "<BR>";
 for ($i=0;$i<10;$i++){
-    echo  rand(10,210) . " ";
+    $tab[$i] = rand(10,210);
+    echo $tab[$i] . " ";
+}
+//Sortowanie
+echo "<br>sort <br>";
+sort($tab);
+for ($i=0;$i<10;$i++){
+    
+    echo $tab[$i] . " ";
+}
+
+echo "<br>rsort <br>";
+rsort($tab);
+for ($i=0;$i<10;$i++){
+    
+    echo $tab[$i] . " ";
 }
 
 

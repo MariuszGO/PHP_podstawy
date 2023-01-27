@@ -12,7 +12,7 @@ $b= rand(1,255);
 
 echo '    <form action="kolor.php" method="get">
 
-<select name="wielkosc">
+<select name="wielkosc" value="" selected=selected> 
         <option>10</option>
         <option>12</option>
         <option>14</option>
